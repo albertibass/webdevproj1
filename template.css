@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1009948892/thumb/1.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI';
+    background-blend-mode: normal;
+    
+}
+
+h2{
+    color: darkblue;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 15px solid rgb(96, 152, 226);
+    border-radius: 5px;
+    order: 2;
+
+}
+
+.logo {
+    max-height:fit-content;
+    max-width: auto;
+    border-radius: 50%;
+    border-color: bisque;
+    border-width: 3px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.nav-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: groove;
+    background-color: turquoise;
+    margin: 5px;
+}
+
+.splash-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    border: 6px solid rgb(126, 145, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.middleChunk{
+    display: flex;
+    background-image: url(smooth\ backgruond.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 6px solid rgb(207, 181, 231);
+
+}   
+
+.aboutplushobbies{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 6px solid rgb(207, 181, 231);
+}
+
+.randomhobbies{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.coursework{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    border: 6px solid rgb(207, 181, 231);
+    }
+
+
+.bottomChunk{
+    display: flex;
+    justify-content: space-around;
+    color: darkblue;
+    
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.contactRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+}
+
